@@ -64,12 +64,12 @@
     transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
-    .menu-branding .portrait {
+    /* .menu-branding .portrait {
       width: 240px;
       height: 240px;
       border: solid 3px #eece1a;
       border-radius: 50%;
-      background: url(/dist/img/foto.jpg); }
+      background: url(/dist/img/foto.jpg); } */
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -179,7 +179,8 @@ main {
   main .about-info {
     display: grid;
     grid-gap: 30px;
-    grid-template-areas: 'bio-image bio bio' 'job-1 job-2 job-3';
+    grid-template-areas: 'bio-image bio bio'
+ 'job-1 job-2 job-3';
     grid-template-columns: repeat(3, 1fr); }
     main .about-info .bio-image {
       grid-area: bio-image;
@@ -278,7 +279,11 @@ main {
       line-height: 1;
       margin-bottom: 1rem; }
     main .about-info {
-      grid-template-areas: 'bio-image' 'bio' 'job-1' 'job-2' 'job-3';
+      grid-template-areas: 'bio-image'
+ 'bio'
+ 'job-1'
+ 'job-2'
+ 'job-3';
       grid-template-columns: 1fr; }
     main .projects {
       grid-template-columns: repeat(2, 1fr); } }

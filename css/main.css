@@ -307,6 +307,8 @@ main {
         height: 220px;
         border: solid 3px #eece1a;
         border-radius: 50%;
-        background: url(/dist/img/foto.jpg); }
+        background: url("../img/foto.jpg");
+        background-repeat: no-repeat;
+        background-size: contain; }
   main .projects {
     grid-template-columns: 1fr; } }

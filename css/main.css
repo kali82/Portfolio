@@ -304,6 +304,7 @@ main {
       transform: translate3d(0, -100%, 0); }
       .menu-branding .portrait {
         width: 220px;
-        height: 220px; }
+        height: 220px;
+        background: url("../img/foto.jpg"); }
   main .projects {
     grid-template-columns: 1fr; } }

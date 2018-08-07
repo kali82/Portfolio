@@ -69,9 +69,7 @@
       height: 240px;
       border: solid 3px #eece1a;
       border-radius: 50%;
-      background: url(../dist/img/foto.jpg);
-      background-repeat: no-repeat;
-      background-size: contain; }
+      background: url("../img/foto.jpg"); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }

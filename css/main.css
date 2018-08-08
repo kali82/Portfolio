@@ -199,7 +199,41 @@ main {
       grid-area: job-3; }
     main .about-info .job {
       background: #515151;
+      padding: 1rem;
       border-bottom: 3px solid #eece1a; }
+  main .skills-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 2rem; }
+    @media screen and (max-width: 868px) {
+      main .skills-info {
+        grid-template-columns: repeat(2, 1fr); } }
+    main .skills-info .skill {
+      text-align: center;
+      align-self: center;
+      justify-self: center;
+      border-bottom: 3px groove #eece1a; }
+      main .skills-info .skill img {
+        width: 240px; }
+      main .skills-info .skill .rating-stars {
+        text-align: center;
+        align-self: center;
+        justify-self: center; }
+        main .skills-info .skill .rating-stars .checked {
+          color: gold; }
+      main .skills-info .skill .logo {
+        width: 238px;
+        height: 238px; }
+  main .skill-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(76, 76, 76, 0.5);
+    text-align: center; }
+    @media screen and (max-width: 460px) {
+      main .skill-title {
+        font-size: 1.5rem; } }
   main#work .sm-heading {
     text-align: center; }
   main .projects {
@@ -307,4 +341,6 @@ main {
         height: 220px;
         background: url("../img/foto.jpg"); }
   main .projects {
+    grid-template-columns: 1fr; }
+  main .skills-info {
     grid-template-columns: 1fr; } }

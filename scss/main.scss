@@ -90,6 +90,7 @@ main {
         'job-1 job-2 job-3';
         grid-template-columns: repeat(3,1fr);
     
+    
         .bio-image{
             grid-area: bio-image;
             border-radius: 50%;
@@ -112,10 +113,70 @@ main {
         }
         .job {
             background: lighten($color: $primary-color, $amount: 5);
-            //padding: 1rem;
+            padding: 1rem;
             border-bottom: 3px solid $secoundary-color;
         }
     
+    }
+
+    .skills-info {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        @media screen and (max-width: 868px) {
+            grid-template-columns: repeat(2,1fr);
+        }
+        grid-gap: 30px;
+        margin-top: 2rem;
+        //overflow: auto;
+       // grid-gap: 30px;
+       
+    
+
+        
+        .skill {
+            
+            text-align: center;
+            align-self: center;
+            justify-self: center;
+            
+            //grid-template-areas: initial;
+         
+            //padding: 1rem;
+            
+            border-bottom: 3px groove $secoundary-color;
+
+            img {
+                width: 240px;
+            }
+            .rating-stars {
+                text-align: center;
+                align-self: center;
+                justify-self: center;
+                .checked {
+                    color: gold;
+                }
+             
+                
+            }
+            .logo {
+                width: 238px;
+                height: 238px;
+
+            }
+            
+        }
+    
+    }
+
+    .skill-title {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 0.2rem 1rem;
+        background: rgba(lighten($primary-color, 3), 0.5);
+        text-align: center;
+        @media screen and (max-width: 460px){
+            font-size: 1.5rem;
+        }
     }
 
     &#work {

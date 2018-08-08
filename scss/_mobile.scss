@@ -54,6 +54,7 @@
 
     }
 
+
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -103,6 +104,11 @@
     main {
         .projects {
             grid-template-columns: 1fr;
+        }
+
+        .skills-info {
+            grid-template-columns: 1fr;
+
         }
     }
     

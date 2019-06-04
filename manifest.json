@@ -3,7 +3,7 @@
     "short_name": "Portfolio",
     "theme_color": "#444444",
     "background_color": "#444444",
-    "display": "browser",
+    "display": "standalone",
     "orientation": "portrait",
     "Scope": "/portfolio",
     "start_url": "https://kali82.github.io/portfolio/index.html",

@@ -1,0 +1,14 @@
+{
+    "name": "Kaliszewski-Portfolio",
+    "short_name": "Portfolio",
+    "theme_color": "#444",
+    "background_color": "#444",
+    "display": "standalone",
+    "Scope": "/portfolio/",
+    "start_url": "https://kali82.github.io/portfolio/index.html",
+    "icons": [{
+        "src": "../dist/img/foto.jpg",
+        "type": "image/jpg",
+        "sizes": "150x150"
+    }]
+}

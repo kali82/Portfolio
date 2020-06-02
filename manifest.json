@@ -5,7 +5,8 @@
     "background_color": "#444444",
     "display": "standalone",
     "orientation": "portrait",
-    "start_url": "https://kali82.github.io/portfolio/",
+    "Scope": "/portfolio",
+    "start_url": "https://kali82.github.io/portfolio/index.html",
     "icons": [{
             "src": "img/icons/icon-72x72.png",
             "sizes": "72x72",
